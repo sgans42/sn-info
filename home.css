@@ -1,0 +1,46 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  border-bottom: 2px solid black;
+  align-items: center;
+  width: 100%;
+}
+input[type=submit] {
+  padding: 10%;
+  border: 10% solid black;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 100%;
+}
+div.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.socials__twiter, .socials__facebook, .socials__instagram {
+  width: 20%;
+}
+
+
+.chapter-info {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  justify-items: center;
+  border-bottom: 2px solid black;
+
+}
+
+
+
+.info-chunk { /* main grid */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+img.house {
+  float: inline-end;
+  width: 50%;
+ }

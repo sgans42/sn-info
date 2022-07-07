@@ -19,29 +19,24 @@ div.buttons {
 .socials__twiter, .socials__facebook, .socials__instagram {
   width: 20%;
 }
-/* end of header  */
 
 h1 {
   display: flex;
   justify-content: center;
+  align-self: center;
   border-bottom: 2px solid black;
 }
 
-.picture-section {
+h2 {
+
+}
+.boxes {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-img.pic {
-  margin: 5%;
-  display: flex;
-  justify-content: flex-end;
-  width: 90%;
-  height: 90%;
-}
-p.pic {
-  display: flex;
-  justify-content: center;
-  align-self: center;
+.intro__ * { 
+  border: 2px solid black;
+
 }

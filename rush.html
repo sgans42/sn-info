@@ -23,8 +23,8 @@
           <input type="submit" value="Alumni">
         </form>
 
-        <form class="events-button" action="events.html">
-          <input type="submit" value="Events">
+        <form class="parents-button" action="parents.html">
+          <input type="submit" value="Parents">
         </form>
 
         <form class="about-button" action="about.html">
@@ -40,64 +40,87 @@
       </ul>
 
     </div>
-  <!-- end of header -->
+    <!-- end of header -->
 
-  <form class="f" action="/form-handling-url" method="post">
-    <fieldset>
-        <legend class="f__in" id="title">Get in contact with us</legend>
+    <div class="page">
+      <div class="why-us">
+        <img class="pic" src="https://sigmanualabama.com/wp-content/uploads/2013/01/SigmaNubanner1.png" alt="pic">
+        <div class="why-us__info">
+          <p>Sigma Nu is an Honor fraternity. We are a fraternity, not a club, for men, not boys, based upon the Honor Principle, not expediency and situational ethics. So what can Sigma Nu do for you? The true answer is: you will get out of it what you put into it. For those who strive, Sigma Nu can:</p>
+          <ul class="points">
+            <li> Develop lifelong friendships and brotherhood.</li>
+            <li> Build a worldwide network of Sigma Nu connections.</li>
+            <li> Teach valuable business, interpersonal and social skills.</li>
+            <li> Develop leadership abilities and confidence.</li>
+            <li> Provide opportunities to give back to the community.</li>
+            <li> Help you become the best version of yourself.</li>
+            <li> Sigma Nu can give you a chance to get the most out of college.</li>
+            <li> To leave a legacy.</li>
+          </ul>
 
-        <div class="f__in">
-            <label id="firstName" for="firstName">First name</label>
-            <input type="text" id="first-name-in" name="first-name">
+          <p>We are here to build a Rock Chapter: one of the top Sigma Nu fraternity chapters across the country. Imagine being a part of something great, something remarkable. The top leaders, social gentlemen, involved on campus, high academics, strong athletics, recruiting the best men on campus, and most importantly, a high sense of Honor. The premier men's organization on campus. A genuine fraternity experience.</p>
+          <p><b>Q.</b> What is the required GPA to rush Sigma Nu?</p>
+          <p><b>A.</b> The current GPA to rush is 2.7 for high school graduates and a 2.5 for current college students, to be accepted for candidacy of Sigma Nu.</p>
+
         </div>
+      </div>
 
-        <div class="f__in">
-            <label id="lastName" for="lastName">Last name</label>
-            <input type="text" id="last-name-in" name="last-name">
-        </div>
+      <form class="f" action="/form-handling-url" method="post">
+        <fieldset>
+            <legend class="f__in" id="title">Get in contact with us</legend>
 
-        <div class="f__in">
-            <label id="email" for="email">Email</label>
-            <input type="email" id="email-in" name="email_address">
-        </div>
+            <div class="f__in">
+                <label id="firstName" for="firstName">First name</label>
+                <input type="text" id="first-name-in" name="first-name">
+            </div>
 
-        <div class="f__in">
-          <label id="phone" for="phone">Phone number</label>
-          <input type="tel" id="phone-in" name="phone-number">
-        </div>
+            <div class="f__in">
+                <label id="lastName" for="lastName">Last name</label>
+                <input type="text" id="last-name-in" name="last-name">
+            </div>
 
-        <div class="f__in">
-            <label id="role" for="role">Farthest <b>COMPLETED</b> year </label>
-            <select id="role-in" name="user-role-name">
-                <option value="high-school">High school</option>
-                <option value="freshmen">Freshmen</option>
-                <option value="sophmore">Sophmore</option>
-                <option value="junior">Junior</option>
+            <div class="f__in">
+                <label id="email" for="email">Email</label>
+                <input type="email" id="email-in" name="email_address">
+            </div>
 
-            </select>
-        </div>
+            <div class="f__in">
+              <label id="phone" for="phone">Phone number</label>
+              <input type="tel" id="phone-in" name="phone-number">
+            </div>
 
-        <div class="f__in">
-            <label id="comment" for="comment">Tell us about yourself. </label>
-            <textarea minlength="250" required id="comment-in" name="comments"></textarea><span>min 250</span>
-        </div>
+            <div class="f__in">
+                <label id="role" for="role">Farthest <b>COMPLETED</b> year </label>
+                <select id="role-in" name="user-role-name">
+                    <option value="high-school">High school</option>
+                    <option value="freshmen">Freshmen</option>
+                    <option value="sophmore">Sophmore</option>
+                    <option value="junior">Junior</option>
 
-        <div class="f__in">
-            <input type="checkbox" id="signup-in" name="signup" value="Signup">
-            <label id="signup" for="signup">Agree to be contacted</label><br>
+                </select>
+            </div>
 
-            <input type="checkbox" id="terms-in" name="terms" value="Terms">
-            <label id="terms" for="terms">Agree to terms and conditions</label>
-        </div>
+            <div class="f__in">
+                <label id="comment" for="comment">Tell us about yourself. </label>
+                <textarea minlength="250" required id="comment-in" name="comments"></textarea><span>min 250</span>
+            </div>
 
-        <div class="f__in">
-            <button type="submit" id="submit">Submit</button>
-        </div>
+            <div class="f__in">
+                <input type="checkbox" id="signup-in" name="signup" value="Signup">
+                <label id="signup" for="signup">Agree to be contacted</label><br>
+
+                <input type="checkbox" id="terms-in" name="terms" value="Terms">
+                <label id="terms" for="terms">Agree to terms and conditions</label>
+            </div>
+
+            <div class="f__in">
+                <button type="submit" id="submit">Submit</button>
+            </div>
 
 
 
-    </fieldset>
-</form>
-
-    </body>
-  </html>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

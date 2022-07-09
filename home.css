@@ -22,22 +22,41 @@ div.buttons {
 
 
 .chapter-info {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
   border-bottom: 2px solid black;
-
+  font-size: 150%;
 }
-
-
 
 .info-chunk { /* main grid */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
 }
 
-h1 {
-  font-size: 300%;
+.about-us {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  height: min-content;
+  margin: 5px;
+  border-bottom: 2px solid black;
+}
+.pic {
+  width: 100%;
+  height: min-content;
+}
+.about-us__text {
+margin: 2%;
+}
+
+
+.house {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  height: min-content;
+  margin: 5px;
+  border-bottom: 2px solid black;
+}
+.house__info {
+  margin: 3px;
 }
 
 img.house {

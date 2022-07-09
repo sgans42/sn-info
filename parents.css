@@ -19,3 +19,10 @@ div.buttons {
 .socials__twiter, .socials__facebook, .socials__instagram {
   width: 20%;
 }
+
+.num-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 2px solid black;
+
+}

@@ -34,9 +34,17 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+
 }
 
-.intro__ * { 
+#intro {
+  margin: 5px;
   border: 2px solid black;
-
+}
+#info {
+  margin-left: 2%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
 }
